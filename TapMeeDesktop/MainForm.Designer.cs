@@ -71,6 +71,7 @@
             upButton.TabIndex = 2;
             upButton.Text = "SIGN UP";
             upButton.UseVisualStyleBackColor = false;
+            upButton.Click += upButton_Click;
             // 
             // pictureBox1
             // 

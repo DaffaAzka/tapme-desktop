@@ -12,7 +12,6 @@
     <Folder Include="Databases\" />
     <Folder Include="MVC\Models\" />
     <Folder Include="MVC\Controllers\" />
-    <Folder Include="MVC\Views\" />
     <Folder Include="Utilities\FieldValidators\" />
   </ItemGroup>
 

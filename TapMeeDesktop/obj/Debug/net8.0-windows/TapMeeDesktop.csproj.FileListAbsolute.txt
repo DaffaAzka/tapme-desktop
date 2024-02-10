@@ -16,3 +16,5 @@ D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-w
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\ref\TapMeeDesktop.dll
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.MainForm.resources
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.Properties.Resources.resources
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.MVC.Views.SignUpForm.resources
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.sourcelink.json

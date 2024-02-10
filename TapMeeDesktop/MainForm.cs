@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TapMeeDesktop.MVC.Views;
 
 namespace TapMeeDesktop
 {
@@ -15,6 +16,13 @@ namespace TapMeeDesktop
         public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void upButton_Click(object sender, EventArgs e)
+        {
+            SignUpForm upForm = new SignUpForm();
+            upForm.Show();
+            this.Hide();
         }
     }
 }
