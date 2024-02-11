@@ -18,3 +18,13 @@ D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-w
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.Properties.Resources.resources
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.MVC.Views.SignUpForm.resources
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.sourcelink.json
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\TapMeeDesktop.dll.config
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.csproj.AssemblyReference.cache
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.MVC.Views.DashboardForm.resources
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.csproj.CopyComplete

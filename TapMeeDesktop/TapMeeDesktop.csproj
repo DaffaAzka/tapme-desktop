@@ -9,10 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Databases\" />
-    <Folder Include="MVC\Models\" />
-    <Folder Include="MVC\Controllers\" />
     <Folder Include="Utilities\FieldValidators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
   <ItemGroup>
