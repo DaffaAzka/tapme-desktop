@@ -24,5 +24,12 @@ namespace TapMeeDesktop
             upForm.Show();
             this.Hide();
         }
+
+        private void inButton_Click(object sender, EventArgs e)
+        {
+            SignInForm inForm = new SignInForm();
+            inForm.Show();
+            this.Hide();
+        }
     }
 }

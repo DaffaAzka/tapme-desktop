@@ -28,3 +28,4 @@ D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\bin\Debug\net8.0-w
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.csproj.AssemblyReference.cache
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.MVC.Views.DashboardForm.resources
 D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.csproj.CopyComplete
+D:\Programming\2024\CShap\Windows\TapMeeDesktop\TapMeeDesktop\obj\Debug\net8.0-windows\TapMeeDesktop.MVC.Views.SignInForm.resources

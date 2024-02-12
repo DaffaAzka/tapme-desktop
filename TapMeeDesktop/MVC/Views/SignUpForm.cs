@@ -34,7 +34,8 @@ namespace TapMeeDesktop.MVC.Views
 
             if (signUp.emailExist(userModel.Email) || signUp.usernameExist(userModel.Username))
             {
-                 MessageBox.Show("Email or Username already exists!");            }
+                 MessageBox.Show("Email or Username already exists!");            
+            }
             else
             {
                 bool success = signUp.register(userModel);

@@ -59,6 +59,7 @@
             inButton.TabIndex = 1;
             inButton.Text = "SIGN IN";
             inButton.UseVisualStyleBackColor = false;
+            inButton.Click += inButton_Click;
             // 
             // upButton
             // 
