@@ -14,39 +14,17 @@ namespace TapMeeDesktop.MVC.Controllers
     public class SignUp : InterfaceSignUp
     {
         SqlConnection connection = new SqlConnection(UserDatabase.myConnection);
-        List<string> temp = new List<string>();
+        UserDatabase userDatabase = new UserDatabase();
 
 
         public bool emailExist(string s)
         {
-            temp = new List<string>();
-            try
-            {
-                string sql = "SELECT Email FROM table_user";
-                SqlCommand comm = new SqlCommand(sql, connection);
-                connection.Open();
+            List<User> temp = userDatabase.Select();
 
-                SqlDataReader reader = comm.ExecuteReader();
-                int i = 0;
-                while (reader.Read())
-                {
-                    temp.Add(reader.GetValue(i).ToString());
-                    i++;
-                }
-                reader.Close();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                connection.Close();
-            }
 
             foreach (var item in temp)
             {
-                if (item.ToLower() == s.ToLower())
+                if (item.Email.ToLower() == s.ToLower())
                 {
                     return true;
                 }
@@ -61,7 +39,6 @@ namespace TapMeeDesktop.MVC.Controllers
             {
                 string sql = "INSERT into table_user (Username, Email, Password, Point) VALUES (@Username, @Email, @Password, @Point)";
                 SqlCommand command = new SqlCommand(sql, connection);
-
                 command.Parameters.AddWithValue("@Username", model.Username);
                 command.Parameters.AddWithValue("@Email", model.Email);
                 command.Parameters.AddWithValue("@Password", model.Password);
@@ -85,35 +62,12 @@ namespace TapMeeDesktop.MVC.Controllers
 
         public bool usernameExist(string s)
         {
-            temp = new List<string>();
+            List<User> temp = userDatabase.Select();
 
-            try
-            {
-                string sql = "SELECT Username FROM table_user";
-                SqlCommand comm = new SqlCommand(sql, connection);
-                connection.Open();
-
-                SqlDataReader reader = comm.ExecuteReader();
-                int i = 0;
-                while (reader.Read())
-                {
-                    temp.Add(reader.GetValue(i).ToString());
-                    i++;
-                }
-                reader.Close();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                connection.Close();
-            }
 
             foreach (var item in temp)
             {
-                if (item.ToLower() == s.ToLower())
+                if (item.Username.ToLower() == s.ToLower())
                 {
                     return true;
                 }

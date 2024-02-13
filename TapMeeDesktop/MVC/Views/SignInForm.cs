@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TapMeeDesktop.Data;
 using TapMeeDesktop.MVC.Controllers;
 
 namespace TapMeeDesktop.MVC.Views
@@ -27,9 +28,14 @@ namespace TapMeeDesktop.MVC.Views
             bool success = signIn.login(emailBox.Text, passwordBox.Text);
             if (success)
             {
+                
                 DashboardForm dashboard = new DashboardForm();
                 dashboard.Show();
                 this.Close();
+                
+
+                // MessageBox.Show($"{UserData.Id} {UserData.Username} {UserData.Email} {UserData.Point} ");
+
             }
             else
             {

@@ -19,6 +19,7 @@ namespace TapMeeDesktop.MVC.Views
         User userModel = new User();
         InterfaceSignUp signUp = new SignUp();
         private string myConnection = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
+        UserDatabase database = new UserDatabase();
 
         public SignUpForm()
         {
@@ -41,8 +42,8 @@ namespace TapMeeDesktop.MVC.Views
                 bool success = signUp.register(userModel);
                 if (success)
                 {
-                    DashboardForm dashboard = new DashboardForm();
-                    dashboard.Show();
+                    SignInForm signIn = new SignInForm();
+                    signIn.Show();
                     this.Close();
                 }
                 else

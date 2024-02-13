@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TapMeeDesktop.MVC.Models;
 
 namespace TapMeeDesktop.Databases
 {
@@ -13,8 +14,9 @@ namespace TapMeeDesktop.Databases
     {
         public static string myConnection = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
 
-        public DataTable Select()
+        public List<User> Select()
         {
+            List<User> users = new List<User>();
             // 1. Connecting database
             SqlConnection connection = new SqlConnection(myConnection);
             DataTable dt = new DataTable();
@@ -26,14 +28,24 @@ namespace TapMeeDesktop.Databases
                 SqlCommand command = new SqlCommand(sql, connection);
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 connection.Open();
-                adapter.Fill(dt);
+                var dr = command.ExecuteReader();
+                while (dr.Read())
+                {
+                    User user = new User();
+                    user.Id = int.Parse(dr["Id"].ToString());
+                    user.Username = dr["Username"].ToString();
+                    user.Email = dr["Email"].ToString();
+                    user.Password = dr["Password"].ToString();
+                    user.Point = int.Parse(dr["Point"].ToString());
+                    users.Add(user);
+                }
             }
             catch (Exception ex) { }
             finally
             {
                 connection.Close();
             }
-            return dt;
+            return users;
         }
     }
 }
