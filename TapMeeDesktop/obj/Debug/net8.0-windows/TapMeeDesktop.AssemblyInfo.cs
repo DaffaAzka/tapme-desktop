@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TapMeeDesktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b90332ea8d3406533e212f40752b6d62a48ae1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcc772885dfcd56ee2b27c3967bafe008e5a0e8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TapMeeDesktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TapMeeDesktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
